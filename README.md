@@ -34,3 +34,6 @@ Than after each path call the remote adress will be returned
     return "{" + "\"ip" + "\""+":"+ " " + "\"" + address.split(":")[0] + "\"" + "}" + "\n";
 
 to run the application:  mvn quarkus:dev
+
+After this we call http://127.0.0.1:8080/show_my_ip
+And we get the IP address of the caller as JSON format. 
