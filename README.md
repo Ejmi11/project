@@ -8,11 +8,11 @@ OpenJDK Runtime Environment (build 14.0.2+12-46)
 Apache Maven 3.6.3 
 Jetbrains Intellij
 
-i started by creating a sample Quarks project using Maven:
+I started by creating a sample Quarks project using Maven:
 
 mvn io.quarkus:quarkus-maven-plugin:1.8.0.CR1:create "-DprojectGroupId=at.tug" "-DprojectArtifactId=show-ip" "-DclassName=at.tug.ipshow.Resource" "-Dpath=/show_my_ip"
 
-than i opened the project in intellij
+than I opened the project in intellij
 edited the Resource class Resource.java
 added annotation @Context, to inject an 
 object instance related to the context of HTTP requests.
